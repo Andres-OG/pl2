@@ -1,0 +1,17 @@
+@keyframes moveText {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.animated-text {
+    animation: moveText 2s infinite alternate;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.text-center {
+    animation: bounce 2s infinite;
+}
